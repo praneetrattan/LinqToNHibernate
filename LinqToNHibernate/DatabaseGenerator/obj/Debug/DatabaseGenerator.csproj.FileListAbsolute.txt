@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\DatabaseGenerator\bin\Debug\DatabaseGenerator.pdb
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\DatabaseGenerator\bin\Debug\nunit.framework.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\DatabaseGenerator\bin\Debug\nunit.framework.xml
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\DatabaseGenerator\obj\Debug\DatabaseGenerator.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\DatabaseGenerator\obj\Debug\DatabaseGenerator.pdb

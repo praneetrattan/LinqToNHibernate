@@ -1,0 +1,9 @@
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\bin\Debug\Code.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\bin\Debug\Code.pdb
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\bin\Debug\DatabaseGenerator.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\bin\Debug\nunit.framework.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\bin\Debug\DatabaseGenerator.pdb
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\bin\Debug\nunit.framework.xml
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\obj\Debug\Code.dll
+\\vmware-host\Shared Folders\Desktop\Development\KnowledgeBase\LinqToNHibernate\Code\obj\Debug\Code.pdb
