@@ -10,7 +10,7 @@
         [SetUp]
         public void Setup()
         {
-            SampleDataGenerator.SetupTestDatabase();
+            //SampleDataGenerator.SetupTestDatabase();
         }
 
         [Test]
