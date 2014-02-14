@@ -35,6 +35,9 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\packages\structuremap.2.6.4.1\lib\net40\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseSetup.cs" />
+    <Compile Include="LinqNhibernateExamples.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +59,17 @@
       <Project>{274734B8-783A-4585-8BEC-B75128723DA4}</Project>
       <Name>DatabaseGenerator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{33184ACD-E8C7-40AA-89EA-FF89440F8C9B}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistence\Persistence.csproj">
+      <Project>{386F67A6-7D73-4889-A03D-AA8505DFAF51}</Project>
+      <Name>Persistence</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

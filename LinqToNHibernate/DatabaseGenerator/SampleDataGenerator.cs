@@ -8,6 +8,8 @@
 
         private static SqlHelper sqlHelper;
 
+        private const string DummyAbstract = @"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+
         public static void SetupTestDatabase()
         {
             sqlHelper = new SqlHelper();
@@ -63,10 +65,16 @@
         private static void InsertData()
         {
             //Books
-            InsertRowInBooks(1, "Book Title 1", "Author A", "This is a long abstract for Book 1, written by Author A");
-            InsertRowInBooks(2, "Book Title 2", "Author B", "This is a long abstract for Book 2, written by Author B");
-            InsertRowInBooks(3, "Book Title 3", "Author A", "This is a long abstract for Book 3, written by Author A");
-            InsertRowInBooks(4, "Book Title 4", "Author C", "This is a long abstract for Book 4, written by Author C"); //Not in RecordKeeping
+            InsertRowInBooks(1, "Book Title 1", "Author A", "This is a long abstract for Book 1, written by Author A" + DummyAbstract);
+            InsertRowInBooks(2, "Book Title 2", "Author B", "This is a long abstract for Book 2, written by Author B" + DummyAbstract);
+            InsertRowInBooks(3, "Book Title 3", "Author A", "This is a long abstract for Book 3, written by Author A" + DummyAbstract);
+            InsertRowInBooks(4, "Book Title 4", "Author C", "This is a long abstract for Book 4, written by Author C" + DummyAbstract); //Not in RecordKeeping
+
+            //Adding more records
+            for (int i = 5; i <= 500; i++)
+            {
+                InsertRowInBooks(i, "Book Title " + i, "Author A", "This is a long abstract for Book " + i + ", written by Author A" + DummyAbstract);
+            }
 
             //Members
             InsertRowInMembers(1, "Member P", "1");
